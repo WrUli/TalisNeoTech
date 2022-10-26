@@ -1,0 +1,42 @@
+#last-vids {
+    width: 100vw;
+    height: 30vh;
+}
+
+.box-last-vids {
+    padding-top: 40px;
+    width: 60vw;
+    margin-left: 20.5vw;
+    
+    >article {
+        display: flex;
+    }
+}
+
+.video {
+    height: 520px;
+    width: 750px;
+    background-color: #032C4C;
+}
+
+.right-vid {
+    width: 300px;
+    display: flex;
+    padding: 19px;
+    @include border-vid ($maCouleurGrise);
+
+    >p {
+        margin-left: 10px;
+    }
+}
+
+.right-vid-1 {
+    width: 300px;
+    display: flex;
+    padding: 19px;
+    @include border-vid (white);
+
+    >p {
+        margin-left: 10px;
+    }
+}

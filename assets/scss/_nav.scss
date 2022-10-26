@@ -1,0 +1,41 @@
+nav {
+    height: 10vh;
+    width: 100vw;
+    background-color: #032C4C;
+    display: flex;
+    color: white; 
+    justify-content: space-between;
+    align-items: center;
+
+    div {
+        display: flex;
+    }
+    
+    ul {
+        display: flex;
+        gap: 30px;
+    }
+
+    input[type="text"], textarea {
+        background-color: #032C4C;
+        border: 0px;
+        color: white;
+    }   
+}
+
+.nav-left {
+    width: 50vw;
+    gap: 50px;
+    margin-left: 10%;
+}
+
+.nav-right {
+    width: 50vw;
+    justify-content: flex-end;
+    gap: 50px;
+    margin-right: 10%;
+}
+
+.fa-brands {
+    padding-right: 20px;
+}

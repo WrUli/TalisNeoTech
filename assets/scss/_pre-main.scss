@@ -1,0 +1,18 @@
+main {
+    position: relative;
+}
+
+#pre-main {
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    >img {
+        height: 90px;
+        width: 728px;
+        background-position: center;
+        background-size: cover;
+        align-items: center;
+    }
+}

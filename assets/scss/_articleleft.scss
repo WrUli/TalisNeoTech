@@ -1,0 +1,36 @@
+#both-articles {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    
+    >div {
+        display: flex;        
+    }
+}
+
+.article {
+    display: flex;
+
+    img{
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+.article-left {
+    width: 35vw;
+
+
+    h5 {
+        padding-left: 25px;
+        padding-bottom: 10px;
+    }
+
+    div {
+        padding-top: 25px;
+
+        p {
+            padding-left: 25px;
+        }
+    }
+}

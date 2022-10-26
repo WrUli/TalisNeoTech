@@ -1,0 +1,52 @@
+.article-right {
+    width: 15vw;
+
+    
+    >div {
+        padding-top: 25px;
+
+        p {
+            padding-left: 15px;
+        }
+        
+    }
+}
+
+.grey-box {
+    height: 200px;
+    width: 15vw;
+    margin-top: 35px;
+    border: 3px solid lightgray;
+
+    >div {
+        padding: 25px;
+    }
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.brand-text {
+    @include box-brand ($maBoxColor);
+    margin-top: 20px;
+}
+
+.brand-text2 {
+    @include box-brand (lightblue );
+    margin-top: 5px;
+}
+
+.brand-text3 {
+    @include box-brand (darkorange);
+    margin-top: 5px;
+}
+
+.brand-text4 {
+    @include box-brand (magenta );
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
